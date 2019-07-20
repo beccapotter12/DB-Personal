@@ -6,9 +6,7 @@ import Banner from '../../assets/images/ui/AvailablePuppiesBanner.png';
 
 const AvailablePuppies = props => (
     <div>
-        <div>
-            <Navbar />
-        </div>
+   
         <div>
             <img className="banner" src={Banner} alt="banner"/>
         </div>

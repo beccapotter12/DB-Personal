@@ -6,9 +6,7 @@ import Banner from '../../assets/images/ui/AboutUsBanner.png';
 
 const About = props => (
     <div>
-    <div>
-        <Navbar />
-    </div>
+    
     <div>
         <img className="banner" src={Banner} alt="banner"/>
     </div>

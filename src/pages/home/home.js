@@ -8,9 +8,7 @@ import Footer from '../../components/footer/footer';
 
 const Home = props => (
     <div>
-        <div className="homeNav">
-            <Navbar />
-        </div>
+        
         <div>
             <img className="banner" src={Banner} alt="banner"/>
         </div>

@@ -12,9 +12,7 @@ import Footer from '../../components/footer/footer';
 
 const GuardianHome = props => (
     <div>
-        <div>
-            <Navbar />
-        </div>
+       
 
         <div>
             <img className="banner" src={Banner} alt="banner"/>

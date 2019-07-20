@@ -7,3 +7,32 @@
     height: 25%;
     width: 100%;
 }
+
+.image {
+    height: 200px;
+    width: 275px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.availableHeader {
+    color: #004391;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.availableBody {
+    color: #004391;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.availablePuppy {
+    margin: auto;
+    width: 50%;
+    padding: 10px;
+    align-content: center;
+
+}

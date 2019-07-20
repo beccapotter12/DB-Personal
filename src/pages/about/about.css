@@ -7,3 +7,24 @@
     height: 25%;
     width: 100%;
 }
+
+.aboutHeader {
+    color: #004391;
+    font-family: 'Rock Salt', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.aboutBody {
+    color: #004391;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+.aboutImage {
+    height: 300px;
+    width: 400px;
+    padding: 10px;
+    border-radius: 15px;
+}

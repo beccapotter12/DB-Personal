@@ -24,12 +24,9 @@ const Subscribe = props => (
              <Button variant="secondary">Close</Button>
              <Button variant="primary">Submit</Button>
         </Modal.Footer>
-</Modal.Dialog>
-    
+    </Modal.Dialog>
     
     </div>
-
-
 
 );
 

@@ -1,6 +1,5 @@
 import React from 'react';
 import './home.css';
-import Navbar from '../../components/navBar/navBar';
 import Banner from '../../assets/images/ui/BannerImage3.png';
 import HomeCarousel from '../../components/carousel/carousel';
 import MissionStatement from '../../components/missionStment/missionStment';

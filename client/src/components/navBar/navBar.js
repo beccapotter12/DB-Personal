@@ -15,6 +15,7 @@ const NavBar = props => (
       <Nav.Link onClick={() => props.displayContent("GuardianHome")}>Guaridan Home</Nav.Link>
       <Nav.Link onClick={() => props.displayContent("About")}>About</Nav.Link>
       <Nav.Link onClick={() => props.displayContent("ContactUs")}>Contact Us</Nav.Link>
+      <Nav.Link className="admin" onClick={() => props.displayContent("Admin")}>Admin Login</Nav.Link>
 
     </Nav>
 </Navbar>

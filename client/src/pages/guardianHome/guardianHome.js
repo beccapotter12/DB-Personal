@@ -1,6 +1,5 @@
 import React from 'react';
 import './guardianHome.css';
-import Navbar from '../../components/navBar/navBar';
 import Banner from '../../assets/images/ui/GuardianHomeBanner.png';
 import Percy from '../../assets/images/ui/Percy.jpeg';
 import Fleur from '../../assets/images/ui/Fleur.jpeg';
@@ -20,7 +19,7 @@ const GuardianHome = props => (
 
         <div className="row">
 
-            <div className="col-sm"> 
+            <div className="col-sm">
             <img className="guardianImage" src={Percy} alt="percy"/>
             <img className="guardianImage" src={Fleur} alt="fleur"/>
             <img className="guardianImage" src={Serius} alt="serius"/>

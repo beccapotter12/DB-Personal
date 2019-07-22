@@ -1,6 +1,5 @@
 import React from 'react';
 import './about.css';
-import Navbar from '../../components/navBar/navBar';
 import Footer from '../../components/footer/footer';
 import Banner from '../../assets/images/ui/AboutUsBanner.png';
 import Percy from '../../assets/images/ui/Percy.jpeg';

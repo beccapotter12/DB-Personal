@@ -42,7 +42,7 @@ function Footer() {
 
         <Modal.Footer>
         <Button variant="primary" onClick={handleClose}>
-              Save Changes
+              Subscribe
             </Button>
         </Modal.Footer>
     </Modal>

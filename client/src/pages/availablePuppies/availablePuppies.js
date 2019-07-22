@@ -1,15 +1,12 @@
 import React from 'react';
 import './availablePuppies.css';
-import Navbar from '../../components/navBar/navBar';
 import Footer from '../../components/footer/footer';
 import Banner from '../../assets/images/ui/AvailablePuppiesBanner.png';
 import Percy from '../../assets/images/ui/Percy.jpeg';
 import Fleur from '../../assets/images/ui/Fleur.jpeg';
 import Serius from '../../assets/images/ui/Sirus.JPG';
 import Albus from '../../assets/images/ui/AlbusPuppy.jpg';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import Image from 'react-bootstrap/Image';
+
 
 
 const AvailablePuppies = props => (

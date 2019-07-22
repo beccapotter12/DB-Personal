@@ -4,6 +4,9 @@ import Banner from '../../assets/images/ui/BannerImage3.png';
 import HomeCarousel from '../../components/carousel/carousel';
 import MissionStatement from '../../components/missionStment/missionStment';
 import Footer from '../../components/footer/footer';
+import DogPeople from '../../components/dogPeople/dogPeople';
+import DogFront from '../../assets/images/ui/FrontPage.png';
+
 
 const Home = props => (
     <div>
@@ -21,10 +24,10 @@ const Home = props => (
         </div>
         <div className="row homeTopContent">
             <div className="col-sm">
-                <HomeCarousel />
+            <img className="imagesHome" src={DogFront} alt="doggy"/>
             </div>
             <div className="col-sm">
-                <MissionStatement />
+                <DogPeople />
             </div>
         </div>
         <div>

@@ -1,0 +1,6 @@
+user = {
+      "username": "ilovedogs",
+      "password": "root",
+    }
+  
+  export default User;

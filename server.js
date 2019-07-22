@@ -1,7 +1,12 @@
-const express = require("express");
-const path = require("path");
-const PORT = process.env.PORT || 3001;
-const app = express();
+const express = require('express')
+const bodyParser = require('body-parser')
+const morgan = require('morgan')
+const session = require('express-session')
+const dbConnection = require('./database/models/userDB')
+const MongoStore = require('connect-mongo')(session)
+const passport = require('./client/src/components/utilities/auth');
+const app = express()
+const PORT = 3001
 
 // Define middleware here
 app.use(express.urlencoded({ extended: true }));
@@ -23,3 +28,7 @@ app.get("*", (req, res) => {
 app.listen(PORT, () => {
     console.log(`🌎 ==> API server now on port ${PORT}!`);
 });
+
+
+
+//subscribe and authentication

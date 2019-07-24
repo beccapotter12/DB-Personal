@@ -1,13 +1,15 @@
 import React from 'react';
 import './admin.css';
-import Form from 'react-bootstrap/Form'
-import Button from 'react-bootstrap/Button'
+// import Form from 'react-bootstrap/Form'
+// import Button from 'react-bootstrap/Button'
+import LoginTwo from '../../components/login2/login2';
 
 
 
 const Admin = props => (
     <div>
-        <div className="adminHeader">Admin Page</div>
+        <LoginTwo />
+        {/* <div className="adminHeader">Admin Page</div>
         <div className="login">Please Log In</div>
         <Form>
             <Form.Group controlId="formBasicEmail">
@@ -29,7 +31,7 @@ const Admin = props => (
                 Login
 
             </Button>
-        </Form>
+        </Form> */}
 
 
     </div>
